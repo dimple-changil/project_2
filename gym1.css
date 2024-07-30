@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body,
+input,
+button{
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+}
+
+body{
+    color:white;}
+
+    input,
+    button{
+        border: none;
+        outline: none;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    img{
+        max-width: 100%;
+        height: 100%;
+        }
+
+     .login{
+        position: relative;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+     }   
+
+     .login-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+
+     }
+         
+     .login--form{
+        left: 450px;
+       position: relative;
+        background-color: hsla(0, 0%, 10%, .1);
+        border: 2px solid #29a396;
+        margin-inline: 2.5rem;
+        padding: 2.5rem 1.5rem;
+        backdrop-filter: blur(5px);
+        width: 500px;
+        border-radius: 6%;
+    }
+
+
+.login-title{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+/*.login-content,
+.login-box{
+    display: grid;
+
+}*/
+
+.login-content{
+    row-gap: 1.75px;
+    margin-bottom: 1.5rem;
+}
+
+.login-box{
+    grid-template-columns:max-content 1fr ;
+    align-items: center;
+    column-gap: .75rem;
+    border-bottom: 1px solid #29a396;
+}
+
+.login-icon,
+.login-eye{
+    font-size: 1.25rem;
+}
+
+ .login-input{
+    width: 100%;
+    padding-block: 0.8rem; 
+    background:lightgrey;
+    color: black;
+    position:relative;
+    z-index: 1;
+    border-radius: 10px;
+ }
+
+ .login-box-input{
+    position: relative;
+ }
+
+
+#login-eye{
+    cursor: pointer;
+}
+
+.login-check,
+.login--check-group{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-check{
+    margin-bottom:1.5em; ;
+}
+
+.login--check-label,
+.login--forgot,
+.login--register{
+    font-size: 0.9rem;
+}
+
+.login--check-group{
+    column-gap: .5rem;
+}
+
+.login--check-input{
+    width: 16px;
+    height: 16px;
+}
+
+.login--forgot{
+    color:cyan;
+    font-size: 0.9rem;
+}
+
+.login--forgot:hover{
+    text-decoration:underline;
+}
+
+.login--button{
+    margin-top: .5rem;
+    width: 100%;
+    padding:1rem;
+    border-radius: .5rem;
+    background-color: white;
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.login--register{
+    text-align: center;
+}
+
+.login--register {
+    color:white;
+    font-weight: var(--font-medium);
+}
+.reg{
+    color: cyan;
+}
+
+.reg:hover{
+    text-decoration: underline;
+}
