@@ -1,2 +1,2 @@
-# project_2
+# GYM_WEBSITE
 GYM WEBSITE
